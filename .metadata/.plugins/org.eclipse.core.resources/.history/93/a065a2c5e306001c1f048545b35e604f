@@ -1,0 +1,6 @@
+class module-info {
+	
+	public static void main(Dtring args[]) {
+		
+	}
+}

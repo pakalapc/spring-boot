@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+<entry key="sql.getNcsrStepCodes">        
+	<![CDATA[  
+		SELECT C.STEP_CD, C.STEP_DESCR
+		FROM OLP_NCSR_STEPS_TBL C 
+		WHERE C.STATUS = 'A'
+		AND TRUNC(SYSDATE) BETWEEN C.EFFDT AND C.ENDDT
+		ORDER BY C.STEP_CD
+	]]>
+</entry>
+
+</properties>

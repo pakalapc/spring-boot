@@ -1,0 +1,23 @@
+package com.example.domain;
+
+import java.util.List;
+
+public class Photographer {
+	
+	int id;
+	String uid;
+	String password;
+	String first_name;
+	String last_name;
+	String username;
+	String email;
+	String avatar;
+	String gender;
+	String phone_number;
+	String social_insurance_number;
+	String date_of_birth;
+	List<String> eventTypes;
+	Address address;
+	List<String> credit_card;
+
+}

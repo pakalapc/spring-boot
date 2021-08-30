@@ -1,0 +1,16 @@
+package com.example.domain;
+
+public class Address {
+
+	String city;
+	String street_name;
+	String street_address;
+	String zip_code;
+	String state;
+	String country;
+	Coordinates coordinates;
+    "": {
+        "lat": -63.81164074947457,
+        "lng": 119.54873167874729
+    }
+}

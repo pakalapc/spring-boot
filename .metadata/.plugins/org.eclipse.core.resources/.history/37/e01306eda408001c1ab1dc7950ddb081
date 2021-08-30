@@ -1,0 +1,12 @@
+package com.example.config;
+
+import java.util.Properties;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class SqlQueriesConfig {
+	
+	Properties selectSqlStatement = new Properties();
+
+}

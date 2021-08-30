@@ -1,0 +1,15 @@
+package com.example.service.impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.dao.ExampleDao;
+import package com.example.service;
+
+@Service
+public class ExampleServiceImpl extends ExampleService{
+	
+	@Autowired
+	ExampleDao exampleDao;
+
+}

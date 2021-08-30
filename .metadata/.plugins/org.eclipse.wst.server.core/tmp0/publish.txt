@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Mon Aug 30 00:48:26 PDT 2021
+org.eclipse.jst.jee.server\:/binary\:/Users/rocky/.m2/repository/org/springframework/spring-web/5.3.9/spring-web-5.3.9.jar=/Library/TomCat/apache-tomcat-9.0.52/wtpwebapps/spring-boot/WEB-INF/lib/spring-web-5.3.9.jar
+org.eclipse.jst.jee.server\:spring-boot=/Library/TomCat/apache-tomcat-9.0.52/wtpwebapps/spring-boot

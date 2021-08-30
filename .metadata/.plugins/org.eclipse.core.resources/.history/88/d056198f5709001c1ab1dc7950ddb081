@@ -1,0 +1,23 @@
+package com.example.mapper;
+import org.springframework.jdbc.core.RowMapper;
+
+import com.example.domain.Photographer;
+import com.google.gson.Gson;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class PhotographerRowMapper implements RowMapper<Photographer> {
+
+    @Override
+    public Photographer mapRow(ResultSet rs, int rowNum) throws SQLException {
+
+    	Photographer photographer = new Photographer();
+    	Gson gson = new Gson();
+    	gson.fromJson(rs.getString("Credt_cards"), null)
+//        photographer.setID(rs.getLong("ID"));
+    	photographer.
+        return photographer;
+
+    }
+}

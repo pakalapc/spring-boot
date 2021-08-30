@@ -1,0 +1,19 @@
+package com.example.mapper;
+import org.springframework.jdbc.core.RowMapper;
+
+import com.example.domain.Photographer;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class PhotographerRowMapper implements RowMapper<Photographer> {
+
+    @Override
+    public Photographer mapRow(ResultSet rs, int rowNum) throws SQLException {
+
+    	Photographer photographer = new Photographer();
+//        photographer.setID(rs.getLong("ID"));
+        return photographer;
+
+    }
+}
